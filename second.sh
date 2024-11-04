@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+
+#it takes inputs from user in the middle of the scripts
+
 echo "please enter user name and password"
 
 

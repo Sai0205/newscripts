@@ -1,7 +1,12 @@
 #!/bin/bash
 
-#commnets to use assign command swe use $
+echo "please enter user name and password"
 
-DATE=$(date)
 
-echo "todays date is $DATE"
+read USERNAME
+
+echo "username is $USERNAME"
+
+read -s PASSWORD
+
+echo "password is $PASSWORD"

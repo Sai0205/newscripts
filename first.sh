@@ -28,3 +28,12 @@ person1=$1
 person2=$2
 
 echo "$person1 and $person2 are friends"
+
+
+#arithematic operations hould only be done in $(())
+
+p1=$3
+p2=$4
+
+sum=$((p1+p2))
+echo "$sum"

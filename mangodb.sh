@@ -24,7 +24,7 @@ VALIDATE(){
     fi 
 }
 
-cp /home/centos/newscripts /etc/yum.repos.d/mango.repo &>>LOGFILE
+cp /home/centos/newscripts/mango.repo /etc/yum.repos.d/mango.repo &>>LOGFILE
 
 VALIDATE $? "copying mango repo content " 
 

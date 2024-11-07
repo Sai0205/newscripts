@@ -56,7 +56,7 @@ unzip /tmp/web.zip &>>LOGFILE
 
 VALIDATE $? "unzipping the artifact in html folder"
 
-cp /home/centos/newcripts/roboshop.conf /etc/nginx/default.d/roboshop.conf &>>LOGFILE
+cp /home/centos/newscripts/roboshop.conf /etc/nginx/default.d/roboshop.conf &>>LOGFILE
 
 VALIDATE $? "cpoying roboshop config"
 

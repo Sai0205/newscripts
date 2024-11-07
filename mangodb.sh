@@ -21,7 +21,7 @@ VALIDATE(){
         exit 1
     else
         echo "$2 success"
-    fi 1
+    fi 
 }
 
 cp /home/centos/newscripts /etc/yum.repos.d/mango.repo &>>LOGFILE

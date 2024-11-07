@@ -3,7 +3,7 @@
 DATE=$(date +%F)
 LOGSDIR=/tmp
 SCRIPT_NAME=$0
-LOGFILE=$(LOGSDIR)/$(SCRIPT_NAME)_$(DATE).log
+LOGFILE=$LOGSDIR/${SCRIPT_NAME}_$DATE.log
 USERID=$(id -u)
 
 R="\e[31m"

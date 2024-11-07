@@ -36,7 +36,7 @@ systemctl enable mongod &>>LOGFILE
 
 VALIDATE $? "enabling mangodb"
 
-systemctl start mongodb &>>LOGFILE
+systemctl start mongod &>>LOGFILE
 
 VALIDATE $? "starting mangodb"
 
